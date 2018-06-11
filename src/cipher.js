@@ -19,11 +19,12 @@ function encrypt (){
 
     function unencript (){
     var string = [];
-    var textoEncriptado = document.getElementById("textoEncriptado").value;
+    var textoEncriptado = document.getElementById("encriptado").value;
     console.log(textoEncriptado);
     var string = [];
     for (var i = 0; i < textoEncriptado.length; i++) {
-        var character = String.fromCharCode((textoEncriptado [i]).charCodeAt()-65+13%26-65);
+        var character = String.fromCharCode((textoEncriptado [i]).charCodeAt()+65-13%26-65);
+    console.log((textoEncriptado [i]).charCodeAt()+65-13%26-65);
         string.push(character);
         var joinLetter2 = string.join("");
       }
