@@ -7,24 +7,31 @@
   </head>
   <header>
     <h1>ENCRIPTAR Y DESCRIPTAR</h1>
-  <header>
+  </header>
   <body>
-    <div id="text"</div>
-      <p>Ingresa el mensaje que quieras compartir.</p>
-      <input text="text" id="message">
+    <div id="codigo">
+      <p>OFFSET</p>
+      <input text ="number" id="offset">
+      <button type="button" name="code">Offset</button>
+    </div>
+    <div id ="text" >
+      <p>Ingresa aquí tu texto.</p>
+      <input text ="string" id="string">
       <br>
-      <button type="submit" onclick="encrypt()">Codificar</button>
+      <button id="encode" name="encode">Codificar</button>
+    </div>
 
-    <div id="textoEncriptado"</div>
-      <input text="encriptado" id="encriptado">
-      <br>
-      <button type="submit" onclick="unencript()">Desencriptar</button>
+   <div id ="textoEncriptado">
+     <input text ="encriptado" id="encriptado">
+     <br>
+     <button id="decode" name="decode">Desencriptar</button>
+   </div>
 
-      <div id="unencriptTxt"</div>
-        <input text="desencriptado" id="desencriptado">
-
-      <script type="text/javascript"src="cipher.js">
-
-      </script>
+   <div id ="unencriptTxt">
+     <input text="desencriptado" id="desencriptado">
+   </div>
+    <div id="root"></div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
