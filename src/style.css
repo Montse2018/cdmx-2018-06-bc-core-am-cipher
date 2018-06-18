@@ -1,29 +1,46 @@
 body{
-  background-color: grey;
+  background-image:url(criptografia.jpg);
 }
 h1 {
   text-align: center;
   font-family: cursive;
   border: 4px purple;
   padding: 0;
-  color: black;
+  color: red;
   background-color: orange;
 }
 #text {
  text-align: center;
  font-family: arial;
- color: yellowgreen;
+ color: yellow;
  border: 2px blue;
+}
+#string{
+  height: 200px;
+  width: 900px;
+  display: inline;
+}
+#offset{
+  height: auto;
+  width: 50px;
 }
 #textoEncriptado{
  text-align: center;
  color: black;
+}
+#encriptado{
+  height: 200px;
+  width: 900px;
 }
 #txtEncryp{
  text-align: center;
  font-family: 'Times New Roman', Times, serif;
  color: green;
  border: 2px blue;
+}
+#desencriptado{
+  height: 200px;
+  width: 900px;
 }
 #unencriptTxt {
  text-align: center;
